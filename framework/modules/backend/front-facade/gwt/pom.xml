@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.appverse.web.framework.poms</groupId>
 		<artifactId>appverse-web-masterpom</artifactId>
-		<version>1.5.1-SNAPSHOT</version>
+		<version>1.5.1-JAVA-46</version>
 		<relativePath>../../../..</relativePath>
 	</parent>
 
@@ -233,10 +233,12 @@
             <artifactId>jersey-media-multipart</artifactId>
         </dependency>
         
+        <!-- Required for real file types in file upload -->
 		<dependency>
     		<groupId>org.apache.tika</groupId>
     		<artifactId>tika-app</artifactId>    		
 		</dependency>
+ 			        
 		        
 	</dependencies>
 </project>
